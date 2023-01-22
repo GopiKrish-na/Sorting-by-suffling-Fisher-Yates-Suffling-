@@ -1,5 +1,11 @@
 # Sorting-by-suffling-Fisher-Yates-Suffling
 
+__How does the code work ?__
+
+This implementation uses a modified version of the Fisher-Yates shuffle algorithm. It performs the shuffle operation multiple times, each time finding the minimum element in the remaining unsorted portion of the array and swapping it with the first element of the unsorted portion. This effectively sorts the array, but it is not an efficient sorting algorithm.
+**NOTE**  This algorithm is not efficient and is not recommended for sorting large array, it will have a time complexity of O(n*n) which is not optimal.
+
+
 __How does Fisher-Yates Suffling algorithm work ?__
 
 The Fisher-Yates shuffle, also known as the Knuth shuffle, is a popular algorithm for shuffling an array of integers. The algorithm works by iterating through the array from the last element to the first, and for each element, swapping it with a randomly chosen element that comes before it in the array.
